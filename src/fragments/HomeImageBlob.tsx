@@ -14,10 +14,7 @@ export default function HomeImageBlob({ fill, image }: HomeImageBlobProps): Reac
       fill={fill}
       style={{ margin: 16 }}
     >
-      <mask
-        id="mask0"
-        mask-type="alpha"
-      >
+      <mask id="mask0" mask-type="alpha">
         <path
           d="
             M150 0
@@ -30,7 +27,7 @@ export default function HomeImageBlob({ fill, image }: HomeImageBlobProps): Reac
           "
         />
       </mask>
-      <g mask="url(#mask0)">
+      <g mask="url(#mask0)" transform="translate(40, 0)"> {/* Geser seluruh blob & gambar ke kanan */}
         <path
           d="
             M150 0
@@ -43,7 +40,7 @@ export default function HomeImageBlob({ fill, image }: HomeImageBlobProps): Reac
           "
         />
         <image
-          x="30"
+          x="30"   // Tetap bisa fine-tune ini jika gambar tidak pas
           y="20"
           href={image}
           width="270"
