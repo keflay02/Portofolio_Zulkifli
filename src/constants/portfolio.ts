@@ -2,12 +2,12 @@ import type { Portfolio } from "@/types";
 
 export const portfolioList: Portfolio[] = [
   {
-    title: "KNA Landing Page",
-    imageThumbnail: "/assets/images/project-17.webp",
+    title: "Toura-Bus (Web App)",
+    imageThumbnail: "/assets/images/tourabus.webp",
     description:
-      "KNA (Keanu Abimanyu Construction) Landing Page is a website that I created using HTML, CSS, JS, and Tailwind. This website displays information about a construction company that operates in the field of construction, such as building, renovation, and maintenance services. This website also has portfolio, testimonial, and consultation features that make it easy for visitors to know the quality and excellence of this construction company.",
+      "Toura Bus Web App is a full-stack web application designed for a bus travel service. Built with Laravel (PHP) for the backend and React.js for the frontend, it enables users to view available bus routes, book seats, and manage travel schedules. Admins can manage buses, routes, and bookings through a dashboard.",
     livePreviewURL: "",
-    repositoryURL: "",
+    repositoryURL: "https://github.com/keflay02/Toura-Bus-Web-App.git",
     techStack: [
       {
         tech: "HTML",
@@ -28,13 +28,13 @@ export const portfolioList: Portfolio[] = [
     ],
   },
   {
-    title: "KHASS E-Ticketing",
-    imageThumbnail: "/assets/images/project-16.webp",
+    title: "LecturaX (Mobile App)",
+    imageThumbnail: "/assets/images/lecturax-p.webp",
     description:
-      "KHASS is an e-ticketing website for selling theater tickets and promoting theaters. It was created using Next JS, Tailwind, and Express JS with my team. This website allows users to discover and purchase tickets for various theater performances. KHASS showcases information about different theaters, their upcoming shows, ticket availability, pricing, and more. The website provides a convenient platform for theaters to promote their shows and engage with potential audience members. Overall, KHASS aims to connect theater-goers with show tickets in an intuitive online marketplace.",
+      "LecturaX is a mobile application designed for university students. It functions as a tool to record class schedules, lecture materials, and assignment deadlines. The application is built using the Java programming language and utilizes Firebase Realtime Database for data storage.",
 
     livePreviewURL: "https://khass.my.id/",
-    repositoryURL: "",
+    repositoryURL: "https://github.com/keflay02/ppm_lecturax.git",
     techStack: [
       {
         tech: "Next JS",
@@ -51,12 +51,12 @@ export const portfolioList: Portfolio[] = [
     ],
   },
   {
-    title: "My Personal Portfolio",
+    title: "Manajemen-Tugas-Web",
     imageThumbnail: "/assets/images/project-01.webp",
     description:
-      "This is a personal branding project that I created using Next JS, Tailwind CSS, and Framer Motion. This project consists of a website that showcases my skills, achievements, and personality. The website has seven sections: Home, About, Experiences, Services, Portfolio, Articles, and Contact. The website is designed to be responsive, interactive, and engaging. The website aims to impress and connect with potential clients, employers, and collaborators.",
+      "Manajemen-Tugas-Web is a modern task management web application that helps users efficiently schedule, organize, and track their assignments or daily tasks. The platform is built with a robust tech stack, featuring Laravel (PHP) as the backend framework for handling APIs and business logic, and React.js as the frontend framework for delivering a dynamic and responsive user interface.",
     livePreviewURL: "https://muhammad-sufyan-portfolio.vercel.app/",
-    repositoryURL: "https://github.com/Muhammad-Sufyan-901/personal-portfolio",
+    repositoryURL: "https://github.com/keflay02/manajemen-tugas-web.git",
     techStack: [
       {
         tech: "Next JS",
@@ -73,12 +73,12 @@ export const portfolioList: Portfolio[] = [
     ],
   },
   {
-    title: "Phantom Landing Page",
-    imageThumbnail: "/assets/images/project-02.webp",
+    title: "Farm-Card-Application",
+    imageThumbnail: "/assets/images/farmcard.webp",
     description:
-      "Phantom is a website that I created using HTML, CSS, and JavaScript. This website displays information about a company that sells phones with the Phantom brand. This website also showcases the features, specifications, and prices of the Phantom phones, as well as the customer reviews and feedback. This website aims to attract and inform potential buyers about the quality and innovation of the Phantom phones.",
-    livePreviewURL: "https://lomba-web-design.vercel.app/",
-    repositoryURL: "https://github.com/Muhammad-Sufyan-901/lomba-web-design",
+      "Java-based desktop card game application developed for an Object-Oriented Programming course. The game features a two-player farming competition where each player manages a grid-based field by placing crop and animal cards. Players can also sell cards in the shop to earn money, with the objective of collecting the highest amount of money within 20 turns.This application is built using Java 17, JavaFX for the GUI, and Maven for project management and build automation.",
+    livePreviewURL: "",
+    repositoryURL: "https://github.com/juanaw6/Tubes2OOP_B0S.git",
     techStack: [
       {
         tech: "HTML",
@@ -95,12 +95,12 @@ export const portfolioList: Portfolio[] = [
     ],
   },
   {
-    title: "Petabyte Landing Page",
-    imageThumbnail: "/assets/images/project-03.webp",
+    title: "Wander-Wise (Desktop App)",
+    imageThumbnail: "/assets/images/wanderwise.webp",
     description:
-      "Petabyte Landing Page is a website that I created using HTML, CSS, and Bootstrap. This website displays information about a software house that operates in the field of education, such as application, website, and educational game creation services. This website also has portfolio, testimonial, and consultation features that make it easy for visitors to know the quality and excellence of this software house.",
+      "WanderWise is a Python-based desktop application designed to streamline travel planning. It empowers users to create and manage personalized travel itineraries, complete with destination details and budget tracking. Beyond itinerary management, WanderWise also features a curated collection of travel articles to inspire and inform users during the planning process. Built with a modular architecture and fully tested using pytest, the application ensures both scalability and reliability. This project demonstrates strong command over Python application development, user-centered design, and integration of practical travel tools into a cohesive software solution.",
     livePreviewURL: "https://petabyte-landing-page.vercel.app/",
-    repositoryURL: "https://github.com/Muhammad-Sufyan-901/petabyte-landing-page",
+    repositoryURL: "https://gitlab.informatika.org/novelxv/if2250-2024-k02-g11-wanderwise.git",
     techStack: [
       {
         tech: "HTML",

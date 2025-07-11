@@ -16,7 +16,7 @@ export default function HeaderMetadata(): React.JSX.Element {
       />
       <meta
         name="description"
-        content="A Frontend Developer and Mobile Developer from Indonesia. This is my personal portfolio website that created using Next.js and Chakra UI"
+        content="Hello Everyone👋 I'am Zulkifli ardiansyah. A Frontend Developer and Mobile Developer from Indonesia. This is my personal portfolio website that created using Next.js and Chakra UI"
       />
       <meta
         name="author"
