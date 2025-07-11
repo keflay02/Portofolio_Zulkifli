@@ -5,7 +5,7 @@ export const profileData: Profile = {
   region: "Indonesia",
   CV: "/assets/pdf/Muhammad Sufyan CV.pdf",
   divisions: ["Student","Frontend Developer", "Backend Developer", "Mobile Developer"],
-  pictures: ["/assets/images/kiflifoto.png", "/assets/images/di itb.jpg"],
+  pictures: ["/assets/images/kiflifoto2.png", "/assets/images/di itb.jpg"],
   descriptions: [
     "I believe in taking bold steps and embracing continuous learning as my core principles.",
     "A student of Information and Computer Technology Education with hands-on experience in IT, effective teaching abilities, strong team collaboration skills, and a keen enthusiasm for continuous learning.",
