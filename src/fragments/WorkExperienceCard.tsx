@@ -43,23 +43,26 @@ export default function WorkExperienceCard({ jobDesk, companyName, years, jobSta
           </Text>
         </Flex>
 
-        <Flex
-          alignItems="center"
-          columnGap={4}
-          marginTop={2}
-        >
-          {techStack.map(
-            (imageUrl, index): React.ReactNode => (
-              <Image
-                key={`${imageUrl} - ${index}`}
-                src={imageUrl}
-                alt="Tech Stack Icon"
-                width={28}
-                height={28}
-              />
-            )
-          )}
-        </Flex>
+        {Array.isArray(techStack) && techStack.length > 0 && (
+  <Flex
+    alignItems="center"
+    columnGap={4}
+    marginTop={2}
+  >
+    {techStack.map(
+      (imageUrl, index): React.ReactNode => (
+        <Image
+          key={`${imageUrl} - ${index}`}
+          src={imageUrl}
+          alt="Tech Stack Icon"
+          width={28}
+          height={28}
+        />
+      )
+    )}
+  </Flex>
+)}
+
 
         <Text color="secondary">Since {years}</Text>
 

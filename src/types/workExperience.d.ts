@@ -4,5 +4,5 @@ export interface WorkExperience {
   years: string;
   jobStatus: string;
   jobDescription: string;
-  techStack: string[];
+  techStack?: string[]; // Ubah dari wajib ke opsional dengan tanda `?`
 }
