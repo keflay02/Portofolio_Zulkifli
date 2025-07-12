@@ -6,23 +6,19 @@ export const portfolioList: Portfolio[] = [
     imageThumbnail: "/assets/images/tourabus.webp",
     description:
       "Toura Bus Web App is a full-stack web application designed for a bus travel service. Built with Laravel (PHP) for the backend and React.js for the frontend, it enables users to view available bus routes, book seats, and manage travel schedules. Admins can manage buses, routes, and bookings through a dashboard.",
-    livePreviewURL: "",
+    livePreviewURL: "https://keflay02.github.io/Toura-Bus-Web-App/",
     repositoryURL: "https://github.com/keflay02/Toura-Bus-Web-App.git",
     techStack: [
       {
-        tech: "HTML",
-        logo: "/assets/svg/html.svg",
+        tech: "CODEIGNITER",
+        logo: "/assets/svg/codeigniter.svg",
       },
       {
-        tech: "CSS",
-        logo: "/assets/svg/css.svg",
+        tech: "PHP",
+        logo: "/assets/svg/php.svg",
       },
       {
-        tech: "Tailwind",
-        logo: "/assets/svg/tailwind.svg",
-      },
-      {
-        tech: "JavaScript",
+        tech: "JAVASCRIPT",
         logo: "/assets/svg/javascript.svg",
       },
     ],
@@ -33,20 +29,16 @@ export const portfolioList: Portfolio[] = [
     description:
       "LecturaX is a mobile application designed for university students. It functions as a tool to record class schedules, lecture materials, and assignment deadlines. The application is built using the Java programming language and utilizes Firebase Realtime Database for data storage.",
 
-    livePreviewURL: "https://khass.my.id/",
+    livePreviewURL: "",
     repositoryURL: "https://github.com/keflay02/ppm_lecturax.git",
     techStack: [
       {
-        tech: "Next JS",
-        logo: "/assets/svg/next js.svg",
+        tech: "ANDROID STUDIO",
+        logo: "/assets/svg/android studio.svg",
       },
       {
-        tech: "Tailwind",
-        logo: "/assets/svg/tailwind.svg",
-      },
-      {
-        tech: "Express JS",
-        logo: "/assets/svg/express.svg",
+        tech: "JAVA",
+        logo: "/assets/svg/java.svg",
       },
     ],
   },
@@ -55,20 +47,20 @@ export const portfolioList: Portfolio[] = [
     imageThumbnail: "/assets/images/managetask.webp",
     description:
       "Manajemen-Tugas-Web is a modern task management web application that helps users efficiently schedule, organize, and track their assignments or daily tasks. The platform is built with a robust tech stack, featuring Laravel (PHP) as the backend framework for handling APIs and business logic, and React.js as the frontend framework for delivering a dynamic and responsive user interface.",
-    livePreviewURL: "https://muhammad-sufyan-portfolio.vercel.app/",
+    livePreviewURL: "",
     repositoryURL: "https://github.com/keflay02/manajemen-tugas-web.git",
     techStack: [
       {
-        tech: "Next JS",
-        logo: "/assets/svg/next js.svg",
+        tech: "LARAVEL",
+        logo: "/assets/svg/laravel.svg",
       },
       {
-        tech: "Tailwind",
-        logo: "/assets/svg/tailwind.svg",
+        tech: "REACT",
+        logo: "/assets/svg/react.svg",
       },
       {
-        tech: "Framer Motion",
-        logo: "/assets/svg/framer motion.svg",
+        tech: "PHP",
+        logo: "/assets/svg/php.svg",
       },
     ],
   },
@@ -81,12 +73,8 @@ export const portfolioList: Portfolio[] = [
     repositoryURL: "https://github.com/juanaw6/Tubes2OOP_B0S.git",
     techStack: [
       {
-        tech: "HTML",
-        logo: "/assets/svg/html.svg",
-      },
-      {
-        tech: "CSS",
-        logo: "/assets/svg/css.svg",
+        tech: "JAVA",
+        logo: "/assets/svg/.svg",
       },
       {
         tech: "JavaScript",
@@ -99,7 +87,7 @@ export const portfolioList: Portfolio[] = [
     imageThumbnail: "/assets/images/wanderwise.webp",
     description:
       "WanderWise is a Python-based desktop application designed to streamline travel planning. It empowers users to create and manage personalized travel itineraries, complete with destination details and budget tracking. Beyond itinerary management, WanderWise also features a curated collection of travel articles to inspire and inform users during the planning process. Built with a modular architecture and fully tested using pytest, the application ensures both scalability and reliability. This project demonstrates strong command over Python application development, user-centered design, and integration of practical travel tools into a cohesive software solution.",
-    livePreviewURL: "https://petabyte-landing-page.vercel.app/",
+    livePreviewURL: "",
     repositoryURL: "https://gitlab.informatika.org/novelxv/if2250-2024-k02-g11-wanderwise.git",
     techStack: [
       {
@@ -111,12 +99,8 @@ export const portfolioList: Portfolio[] = [
         logo: "/assets/svg/css.svg",
       },
       {
-        tech: "Bootstrap",
-        logo: "/assets/svg/bootstrap.svg",
-      },
-      {
-        tech: "JavaScript",
-        logo: "/assets/svg/javascript.svg",
+        tech: "python",
+        logo: "/assets/svg/python.svg",
       },
     ],
   },
@@ -129,16 +113,16 @@ export const portfolioList: Portfolio[] = [
     repositoryURL: "https://github.com/Revou-Coding-Camp/codingcamp-7-jul-25-keflay02.git",
     techStack: [
       {
-        tech: "React JS",
-        logo: "/assets/svg/react.svg",
+        tech: "CSS",
+        logo: "/assets/svg/css.svg",
       },
       {
         tech: "Tailwind",
         logo: "/assets/svg/tailwind.svg",
       },
       {
-        tech: "Vite",
-        logo: "/assets/svg/vite.svg",
+        tech: "JAVA SCRIPT",
+        logo: "/assets/svg/javascript.svg",
       },
     ],
   },

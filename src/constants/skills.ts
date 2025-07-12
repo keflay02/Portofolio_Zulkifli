@@ -62,6 +62,18 @@ export const skillList: Skill[] = [
     description: "PHP is a server-side scripting language designed specifically for web development.",
   },
   {
+    skillIcon: "/assets/svg/java.svg",
+    title: "JAVA",
+    level: "Intermediate",
+    description: "Java is a high-level, general-purpose, memory-safe, object-oriented programming language. It is intended to let programmers write once, run anywhere",
+  },
+  {
+    skillIcon: "/assets/svg/python.svg",
+    title: "PYTHON",
+    level: "Intermediate",
+    description: "Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.",
+  },
+  {
     skillIcon: "/assets/svg/mysql.svg",
     title: "MySQL",
     level: "Intermediate",
