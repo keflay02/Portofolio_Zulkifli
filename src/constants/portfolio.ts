@@ -52,7 +52,7 @@ export const portfolioList: Portfolio[] = [
   },
   {
     title: "Manajemen-Tugas-Web",
-    imageThumbnail: "/assets/images/project-01.webp",
+    imageThumbnail: "/assets/images/managetask.webp",
     description:
       "Manajemen-Tugas-Web is a modern task management web application that helps users efficiently schedule, organize, and track their assignments or daily tasks. The platform is built with a robust tech stack, featuring Laravel (PHP) as the backend framework for handling APIs and business logic, and React.js as the frontend framework for delivering a dynamic and responsive user interface.",
     livePreviewURL: "https://muhammad-sufyan-portfolio.vercel.app/",
@@ -121,12 +121,12 @@ export const portfolioList: Portfolio[] = [
     ],
   },
   {
-    title: "HooBank Landing Page",
-    imageThumbnail: "/assets/images/project-04.webp",
+    title: "To-Do-List (Web App)",
+    imageThumbnail: "/assets/images/todolist2.webp",
     description:
-      "HooBank is a website that I created using React JS, Tailwind CSS, and Vite. This website displays information about a company that operates in the field of financial digitalization, such as payment, transfer, and online investment services. This website also has security, convenience, and ease features that make it easy for users to manage their finances digitally.",
-    livePreviewURL: "https://hoobank-landing-page-rouge.vercel.app/",
-    repositoryURL: "https://github.com/Muhammad-Sufyan-901/hoobank-landing-page",
+      "This is a responsive and interactive To-Do List web application built using HTML, CSS, and vanilla JavaScript. The app allows users to manage tasks efficiently by adding new items with due dates, marking tasks as completed, filtering tasks in real-time, and deleting individual or all tasks. All task data is stored locally using the browser's localStorage, ensuring that user input is preserved even after page refresh. The tasks are presented in a clean, tabular layout with clear action buttons for a smooth user experience. The project structure follows best practices with separate folders for HTML, CSS, and JavaScript files. It is fully deployed using GitHub Pages and demonstrates practical front-end development skills and UI/UX considerations.",
+    livePreviewURL: "https://revou-coding-camp.github.io/codingcamp-7-jul-25-keflay02/",
+    repositoryURL: "https://github.com/Revou-Coding-Camp/codingcamp-7-jul-25-keflay02.git",
     techStack: [
       {
         tech: "React JS",
