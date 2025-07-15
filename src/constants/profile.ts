@@ -3,7 +3,7 @@ import type { Profile } from "@/types";
 export const profileData: Profile = {
   name: "Zulkifli Ardiansyah",
   region: "Indonesia",
-  CV: "/assets/pdf/Muhammad Sufyan CV.pdf",
+  CV: "/assets/pdf/CV_Zulkifli_Ardiansyah_Fullstack_Engineer.pdf",
   divisions: ["Student","Frontend Developer", "Backend Developer", "Mobile Developer"],
   pictures: ["/assets/images/kiflifoto2.png", "/assets/images/di itb.jpg"],
   descriptions: [
